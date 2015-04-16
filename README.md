@@ -12,5 +12,5 @@ docker run -dP breakyboy/ghost
 - Preferably (but not necessarily) run as a detached (`-d`) container
 - Exposes port 2368 (`-P` or `-p`)
 - Data volume set to `/var/lib/ghost` within the container
-- Set your desired Ghost environment with the `NODE_ENV` environemnt variable
+- Set your desired Ghost environment with the `NODE_ENV` environment variable
     - e.g. `-e NODE_ENV=production`
