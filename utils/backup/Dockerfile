@@ -1,4 +1,4 @@
-FROM breakyboy/ghost-utils
+FROM breakyboy/ghost-utils:0.5.10
 MAINTAINER Andres Rojas <andres@conpat.io>
 ENV REFRESHED_AT 2015-04-15
 
