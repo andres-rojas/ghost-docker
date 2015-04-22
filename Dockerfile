@@ -1,4 +1,4 @@
-FROM ghost:0.5.10
+FROM ghost:0.6.0
 MAINTAINER Andres Rojas <andres@conpat.io>
 ENV REFRESHED_AT 2015-04-15
 
