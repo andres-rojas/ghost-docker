@@ -1,5 +1,5 @@
 # ghost-docker
-Simple Docker container for running Ghost
+Simple Docker container for running [Ghost](https://github.com/TryGhost/Ghost/)
 
 ## Configuration
 - You'll want to customize [config/config.js](https://github.com/andres-rojas/ghost-docker/blob/master/config/config.js)
