@@ -11,6 +11,11 @@ unxz --verbose --keep ${FILENAME}.tar.xz
 tar --verbose --extract --file ${FILENAME}.tar
 echo
 
+echo "Backing up existing data..."
+mkdir -p /var/lib/ghost/.bak
+cp --verbose --recursive /var/lib/ghost /var/lib/ghost/.bak
+echo
+
 echo "Copying files..."
 pushd ghost > /dev/null
   cp --verbose --recursive --force . /var/lib/ghost
